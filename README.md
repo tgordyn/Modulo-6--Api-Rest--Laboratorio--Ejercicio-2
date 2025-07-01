@@ -1,5 +1,12 @@
 # Módulo 6 -- Laboratorio Rest Api
 
-## Ejercicio 1
-Usamos como base un boiler plate y adaptamos las rutas, pods y scenes a `character` y `character-collection`. Con esta aplicación podemos traer el listado de personajes de la serie Rick & Morty y ver el detalle de cada uno.
-Utilizamos la API de https://rickandmortyapi.com/ y la librería `Axios`.
+## Ejercicio 2
+ En este proyecto reemplazamos los endpoints para usar una api en el servidor local. Permite listar personajes, ver el detalle individual y editar la `bestSentence` de cada personaje.
+
+### Instalación:
+Navegar a la raíz del proyecto y ejecutar:
+
+```bash
+npm install       # Instala dependencias del frontend
+npm start       # Levanta el frontend en http://localhost:8080
+```
